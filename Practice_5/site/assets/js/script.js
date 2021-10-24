@@ -78,5 +78,6 @@ const Slider = {
        document.getElementById("slide-" + this.current).setAttribute("class", "singleSlide slideOutLeft");
        this.current = next;
 		document.getElementById("button66").addEventListener("mouseover", function(){this.style.backgroundColor = "green";});
+		
    }
 }
